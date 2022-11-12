@@ -26,7 +26,7 @@
                     });
                     const { Player,QueueRepeatMode } = require("discord-player")
                     s4d.player = new Player(s4d.client)
-                    await s4d.client.login('MTA0MDgxNTQ0ODE5MjcxNjkyMQ.G7km0m.gGREqxKPMMIfYCdLMWTnh4J-AjvJsXR26DFs1A').catch((e) => { s4d.tokenInvalid = true; s4d.tokenError = e; });
+                    await s4d.client.login('').catch((e) => { s4d.tokenInvalid = true; s4d.tokenError = e; });
 
 s4d.client.on('interactionCreate', async (interaction) => {
 let member = interaction.guild.members.cache.get(interaction.member.user.id)
